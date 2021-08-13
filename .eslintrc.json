@@ -4,7 +4,6 @@
     "eslint:recommended",
     "plugin:import/warnings",
     "plugin:import/errors",
-    "eslint-config-airbnb-base",
     "plugin:unicorn/recommended",
     "prettier"
   ],
@@ -29,11 +28,8 @@
         "plugin:import/typescript",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "plugin:jsx-a11y/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "airbnb-typescript",
-        "airbnb/hooks",
         "plugin:unicorn/recommended",
         "prettier"
       ],

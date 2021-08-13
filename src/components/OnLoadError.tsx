@@ -1,6 +1,6 @@
 import React from "react";
 
-const OnLoadError: React.FC = () => (
+const OnLoadError = (): React.ReactNode => (
 		 <div className="flex place-content-center" />
  )
 
