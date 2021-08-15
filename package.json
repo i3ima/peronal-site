@@ -20,7 +20,8 @@
     "react-icons": "^4.2.0",
     "react-query": "3.19.6",
     "react-router-dom": "5.2.0",
-    "react-spring": "^9.2.4"
+    "react-spring": "^9.2.4",
+    "react-use": "^17.2.4"
   },
   "devDependencies": {
     "@cypress/code-coverage": "3.9.10",
