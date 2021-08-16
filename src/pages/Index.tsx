@@ -8,13 +8,17 @@ import Heading from "../components/Heading";
 import Subtext from "../components/Subtext";
 import Divider from "../components/Divider";
 import Paragraph from "../components/Paragraph";
-
+import { FaTelegramPlane } from 'react-icons/fa'
 
 const links: LinkType[] = [
  {
 	url: 'https://github.com/i3ima',
 	Icon: <DiGithubBadge />
  },
+ {
+  url: 'https://t.me/i3ima',
+	Icon: <FaTelegramPlane />
+ }
 ]
 
 const IndexPage: React.FC = () => (
