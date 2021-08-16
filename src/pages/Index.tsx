@@ -24,14 +24,14 @@ const links: LinkType[] = [
 const IndexPage: React.FC = () => (
 		<div className="relative w-screen h-screen flex items-center justify-center p-4">
 			<FillBoxBackdrop>
-			 <div className="p-4 z-50 inset-5 flex flex-col items-start justify-start">
+			 <div className="p-4 inset-5 flex flex-col items-start justify-start">
 				<Heading text="Hello, i&apos;m i3ima"/>
 				<Subtext>
 				 <p className="pr-3">ts/rust 🦀 dev</p>
 				 <div className="flex flex-row gap-x-3">{links.map((link, index) => (<Link key={index} Icon={link.Icon} url={link.url} />))}</div>
 				</Subtext>
 				<Divider />
-				<Paragraph >
+				<Paragraph>
 				 <div className="pb-4">
 					Skills: <p className="inline">TypeScript, Rust</p>
 				 </div>
