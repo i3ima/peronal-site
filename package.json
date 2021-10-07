@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite --open",
-    "serve": "vite preview",
+    "serve": "vite preview"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
